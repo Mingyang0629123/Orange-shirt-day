@@ -1,0 +1,170 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .orange-shirt-day-button {
+    position: absolute;
+    left: 40%;
+  }
+
+    html {
+        background-color: orange;
+    }
+
+    body {
+        margin:  0px;
+    }
+    .title {
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    .hr {
+        background-color: black;
+        height: 5px;
+        width: 100%;
+        margin: 0px;
+    }
+    .topmargin {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        
+    }
+    .first-paragraph {
+        width: 600px;
+        color: white;
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .residental-school {
+        width: 600px;
+        position: absolute;
+        top: 300px;
+        left: 700px;
+        opacity: 0;
+    }
+    
+    .fadein {
+        animation: 1s fadein linear;
+    }
+
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 100;
+        }
+    }
+
+    #secondparagraph {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        
+        
+    }
+    
+    #bus {
+        
+        width: 200px;
+        position: absolute;
+        left: 1200px;
+        top: 940px;
+        animation: 5s moveleft linear infinite  ;
+       
+    }
+
+   
+    
+    #School {
+        width: 300;
+        position: absolute;
+        top: 830px;
+        left: -20px;
+        
+    }
+    
+    @keyframes moveleft {
+        
+        0% {
+            opacity: 100;
+            
+        }
+        99% {
+            opacity: 100;
+            left: -250;
+        }
+       100% {
+        opacity: 0;
+       }
+    }
+    .home {
+        position: absolute;
+        left: 1200px;
+        width: 200px;
+        top: 930px;
+    }
+    .third-paragraph {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+    .listofthingstheycantdo {
+        color: white;
+        text-align: center;
+       
+    }
+
+    #Text1 {
+        background-color: rgb(254, 210, 127);
+        border-radius: 20px;
+        padding: 3px;
+        
+    }
+    #Text2 {
+        background-color: rgb(254, 210, 127);
+        border-radius: 20px;
+        padding: 3px;
+        
+    }
+    #Text3 {
+        background-color: rgb(254, 210, 127);
+        border-radius: 20px;
+        padding: 3px;
+        
+    }
+    
+    .final-paragraph {
+      color:  white;
+      text-align: center;
+      
+    }
+    
+    .cited-infomation {
+      color: white;
+      text-align: center;
+      font-size: 40px;
+    }
+    
+    .infomationlist {
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .Turnwhite {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .Small {
+      width: 200px;
+      position: absolute;
+      left: 40%;
+    }
